@@ -8,10 +8,11 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/* header styles */
+
+/* --------- header styles --------- */
 .logo-blue {
   width: 3vw;
   height: 3vw;
@@ -30,7 +31,7 @@ html {
 
 a {
   font-size: 1em;
-  color:#3585b7;
+  color: #3585b7;
 }
 
 .header-logo {
@@ -41,7 +42,8 @@ a {
   top: -60px;
 }
 
-/* hero-video styles */
+
+/* --------- hero-video styles --------- */
 .video-container {
   width: 100%;
   background-size: cover;
@@ -75,7 +77,6 @@ a {
   font-weight: 600;
   z-index: 1;
 }
-
 
 .circle2 {
   background-color: rgba(6, 56, 90, 0.589);
@@ -134,7 +135,8 @@ a {
   text-decoration: none;
 }
 
-/* content styles */
+
+/* --------- content styles --------- */
 .about {
   font-weight: 200;
   line-height: 1.4;
@@ -151,7 +153,6 @@ a {
 .what-we-do {
   position: relative;
   background-color: #002349;
-
 }
 
 .we-do {
@@ -160,16 +161,16 @@ a {
 }
 
 .we-content {
-    font-weight: 200;
-    line-height: 1.4;
-    padding-bottom: -11vw;
-    padding-left: 7.44%;
-    text-align: left;
-    padding-right: 61%;
-    height: 32vw;
-    background-color: #e4e3e4c3;
-    position: absolute;
-    top: 9vw;
+  font-weight: 200;
+  line-height: 1.4;
+  padding-bottom: -11vw;
+  padding-left: 7.44%;
+  text-align: left;
+  padding-right: 61%;
+  height: 32vw;
+  background-color: #e4e3e4c3;
+  position: absolute;
+  top: 9vw;
 }
 
 .we-services {
@@ -180,9 +181,7 @@ a {
 }
 
 
-
-/* footer styles */
-
+/* --------- footer styles --------- */
 .footer-container {
   background-color: #002349;
   color: rgba(255, 255, 255, 0.939);
@@ -218,7 +217,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .social-media > * {

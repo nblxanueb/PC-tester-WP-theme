@@ -5,20 +5,23 @@
 <!--[if gt IE 8]><!-->
 <html lang="en-US" class="no-js">
 <!--<![endif]-->
-  <head>
+
+
+<head>
     <?php wp_head(); ?>
     <title>PULSE CREATIVE TESTER</title>
-    <meta name="description" content="Page Build-
-Skills required: Photoshop, HTML, CSS, JS, PHP">
-  </head>
-<body>
+    <meta name="description" content="Page Build-Skills required: Photoshop, HTML, CSS, JS, PHP">
+</head>
 
-    <img src="<?php echo get_theme_file_uri( 'images/amlogo_blue.png' ) ?>" alt="" class="logo-blue">
+
+<body>
+    <img src="<?php echo get_theme_file_uri('images/amlogo_blue.png') ?>" alt="logo" class="logo-blue">
+
 
     <div class="site-header">
         <div class="header-container">
           <nav class="main-navigation">
-              <img src="<?php echo get_theme_file_uri( 'images/am_taxand.png' ) ?>" alt="" class="header-logo">
+              <img src="<?php echo get_theme_file_uri('images/am_taxand.png') ?>" alt="logo" class="header-logo">
               <a href="#">ABOUT</a>
               <a href="#">WHO WE SERVE</a>
               <a href="#">WHAT WE DO</a>
