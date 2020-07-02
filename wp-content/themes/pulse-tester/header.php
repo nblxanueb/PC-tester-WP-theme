@@ -15,7 +15,11 @@
 
 
 <body>
-    <img src="<?php echo get_theme_file_uri('images/amlogo_blue.png') ?>" alt="logo" class="logo-blue">
+
+
+    <div class="top-corner-logo">
+            <img src="<?php echo get_theme_file_uri('images/amlogo_blue.png') ?>" alt="logo" class="logo-blue">
+    </div>
 
 
     <div class="site-header">

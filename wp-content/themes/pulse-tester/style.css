@@ -11,44 +11,45 @@ html {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-
 /* --------- header styles --------- */
-.logo-blue {
-  width: 3vw;
-  height: 3vw;
-  display: flex;
+.top-corner-logo {
   position: relative;
-  left: 87%;
+}
+
+.logo-blue {
+  height: 5vw;
+  display: flex;
+  position: absolute;
+  right: 10%;
 }
 
 .main-navigation {
-  padding-left: 4vw;
-  padding-right: 4vw;
-  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 a {
-  font-size: 1em;
+  font-size: 1.5vw;
   color: #3585b7;
 }
 
 .header-logo {
   width: 6vw;
-  height: 6vw;
-  padding-top: 1vw;
+  height: 7vw;
   position: relative;
-  top: -60px;
+  top: 1.1vw;
 }
-
 
 /* --------- hero-video styles --------- */
 .video-container {
   width: 100%;
   background-size: cover;
   position: relative;
-  top: -4vw;
 }
 
 .video {
@@ -69,7 +70,7 @@ a {
   border-radius: 50%;
   position: absolute;
   top: 8vw;
-  left: 77.5vw;
+  left: 74.6vw;
   text-align: center;
   line-height: 15.5vw;
   color: rgb(255, 255, 255);
@@ -87,7 +88,7 @@ a {
   text-align: center;
   position: absolute;
   top: 12vw;
-  left: 60vw;
+  left: 57vw;
 }
 
 .global-conference {
@@ -96,16 +97,16 @@ a {
 
 .circle3 {
   background-color: rgba(25, 5, 112, 0.222);
-  width: 60vw;
-  height: 60vw;
+  width: 55vw;
+  height: 55vw;
   position: absolute;
   border-radius: 50%;
   text-align: center;
   font-size: 3vw;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  top: 11vw;
-  left: -10vw;
+  top: 13vw;
+  left: -6vw;
 }
 
 .circle3-content {
@@ -120,10 +121,11 @@ a {
 .scroll {
   padding-top: 2%;
   text-align: center;
+  font-size: 1.5vw;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.932);
   position: absolute;
-  top: 85%;
+  bottom: 2%;
   left: 43%;
 }
 
@@ -135,7 +137,6 @@ a {
   text-decoration: none;
 }
 
-
 /* --------- content styles --------- */
 .about {
   font-weight: 200;
@@ -144,10 +145,14 @@ a {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1vw;
+  padding-bottom: 1.2vw;
   position: relative;
-  top: -60px;
+  top: -5px;
   background-color: white;
-  /* z-index: 1; */
+}
+
+.about-content {
+  font-size: 1.7vw;
 }
 
 .what-we-do {
@@ -162,9 +167,10 @@ a {
 
 .we-content {
   font-weight: 200;
+  font-size: 1.5vw;
   line-height: 1.4;
   padding-bottom: -11vw;
-  padding-left: 7.44%;
+  padding-left: 10%;
   text-align: left;
   padding-right: 61%;
   height: 32vw;
@@ -180,15 +186,14 @@ a {
   height: 40vw;
 }
 
-
 /* --------- footer styles --------- */
 .footer-container {
   background-color: #002349;
   color: rgba(255, 255, 255, 0.939);
-  font-size: 1em;
+  font-size: 1.5vw;
   padding: 2em;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: space-between;
 }
@@ -204,8 +209,7 @@ a {
 }
 
 .footer-logo {
-  height: 100px;
-  width: 100px;
+  height: 9vw;
   padding-right: 10%;
 }
 
@@ -229,6 +233,5 @@ a {
   font-size: 1vw;
   color: rgb(255, 255, 255);
   padding: 1em;
-  padding-left: 7.44%;
-  padding-right: 7.44%;
+  padding-left: 10%;
 }
