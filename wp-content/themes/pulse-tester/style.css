@@ -20,12 +20,12 @@ html {
   height: 5vw;
   display: flex;
   position: absolute;
-  right: 10%;
+  right: 7.44%;
 }
 
 .main-navigation {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7.44%;
+  margin-right: 7.44%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -65,12 +65,12 @@ a {
 
 .circle1 {
   background-color: rgba(255, 255, 0, 0.467);
-  width: 15.5vw;
-  height: 15.5vw;
+  width: 16vw;
+  height: 16vw;
   border-radius: 50%;
   position: absolute;
-  top: 8vw;
-  left: 74.6vw;
+  top: 8.4vw;
+  left: 75vw;
   text-align: center;
   line-height: 15.5vw;
   color: rgb(255, 255, 255);
@@ -88,11 +88,11 @@ a {
   text-align: center;
   position: absolute;
   top: 12vw;
-  left: 57vw;
+  left: 57.5vw;
 }
 
 .global-conference {
-  height: 13vw;
+  height: 12vw;
 }
 
 .circle3 {
@@ -102,11 +102,11 @@ a {
   position: absolute;
   border-radius: 50%;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 300;
   color: rgb(255, 255, 255);
   top: 13vw;
-  left: -6vw;
+  left: -7.4vw;
 }
 
 .circle3-content {
@@ -116,6 +116,8 @@ a {
 
 .circle3-content::first-line {
   font-weight: 500;
+  font-size: 3vw;
+  padding-bottom: 50px;
 }
 
 .scroll {
@@ -126,7 +128,7 @@ a {
   color: rgba(255, 255, 255, 0.932);
   position: absolute;
   bottom: 2%;
-  left: 43%;
+  left: 40.5%;
 }
 
 li {
@@ -142,8 +144,8 @@ a {
   font-weight: 200;
   line-height: 1.4;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7.44%;
+  padding-right: 7.44%;
   padding-top: 1vw;
   padding-bottom: 1.2vw;
   position: relative;
@@ -170,7 +172,7 @@ a {
   font-size: 1.5vw;
   line-height: 1.4;
   padding-bottom: -11vw;
-  padding-left: 10%;
+  padding-left: 7.44%;
   text-align: left;
   padding-right: 61%;
   height: 32vw;
@@ -181,9 +183,9 @@ a {
 
 .we-services {
   position: absolute;
-  top: 5vw;
+  top: 2vw;
   left: 50vw;
-  height: 40vw;
+  height: 45vw;
 }
 
 /* --------- footer styles --------- */
@@ -192,8 +194,8 @@ a {
   color: rgba(255, 255, 255, 0.939);
   font-size: 1.5vw;
   padding: 2em;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7.44%;
+  padding-right: 7.44%;
   display: flex;
   justify-content: space-between;
 }
@@ -210,7 +212,7 @@ a {
 
 .footer-logo {
   height: 9vw;
-  padding-right: 10%;
+  padding-right: 7.44%;
 }
 
 .footer-right-side {
@@ -233,5 +235,5 @@ a {
   font-size: 1vw;
   color: rgb(255, 255, 255);
   padding: 1em;
-  padding-left: 10%;
+  padding-left: 7.44%;
 }
