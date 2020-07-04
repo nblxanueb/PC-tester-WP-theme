@@ -5,7 +5,7 @@
 */
 
 @font-face {
-  font-family: HelveticaNeueLTStd ;
+  font-family: HelveticaNeueLTStd;
   src: url(fonts/HelveticaNeueLTStd-LtCn.otf);
 }
 
@@ -13,10 +13,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-
-  /* font-family: myFirstFont; */
   font-family: HelveticaNeueLTStd !important;
-
 }
 
 /* --------- header styles --------- */
@@ -44,6 +41,7 @@ html {
 a {
   font-size: 1.5vw;
   color: #3585b7;
+  font-weight: 700;
 }
 
 .header-logo {
@@ -80,11 +78,12 @@ a {
   top: 8.4vw;
   left: 75vw;
   text-align: center;
-  line-height: 15.5vw;
+  line-height: 16.6vw;
   color: rgb(255, 255, 255);
   font-size: 6vw;
-  font-weight: 600;
+  font-weight: 900;
   z-index: 1;
+  font-family: sans-serif;
 }
 
 .circle2 {
@@ -157,7 +156,7 @@ a {
   padding-top: 1vw;
   padding-bottom: 1.2vw;
   position: relative;
-  top: -5px;
+  top: -1vw;
   background-color: white;
 }
 
@@ -167,7 +166,8 @@ a {
 
 .what-we-do {
   position: relative;
-  background-color: #002349;
+  top: 2vw;
+  /* background-color: #002349; */
 }
 
 .we-do {
@@ -177,8 +177,8 @@ a {
 
 .we-content {
   font-weight: 200;
-  font-size: 1.5vw;
-  line-height: 1.4;
+  font-size: 1.6vw;
+  line-height: 1.6;
   padding-bottom: -11vw;
   padding-left: 7.44%;
   text-align: left;
@@ -201,7 +201,8 @@ a {
   background-color: #002349;
   color: rgba(255, 255, 255, 0.939);
   font-size: 1.5vw;
-  padding: 2em;
+  padding: 2vw;
+  padding-top: 3.5vw;
   padding-left: 7.44%;
   padding-right: 7.44%;
   display: flex;

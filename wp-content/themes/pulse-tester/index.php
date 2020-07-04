@@ -20,7 +20,7 @@
 
     <div class="about">
         <div class="about-content">
-            <h2 style="color: #00355f; font-size: 3vw; font-weight: 200">ABOUT ALVAREZ & MARSAL TAXAND</h2>
+            <h2 style="color: #00355f; font-size: 4.6vw; font-weight: 200; line-height: 0.5">ABOUT ALVAREZ & MARSAL TAXAND</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis libero leo, sit amet interdum urna scelerisque sed. Quisque vitae sodales turpis, quis hendrerit ex. Fusce magna ipsum, eleifend sed augue id, condimentum volutpat purus. Pellentesque vitae elit orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin in lorem dolor. Fusce interdum feugiat nisl. Suspendisse eu quam purus. Nulla vulputate sem eget ipsum consectetur, a lobortis felis iaculis.</p>
             <p>Nullam ipsum eros, volutpat vel faucibus ullamcorper, blandit nec urna. Curabitur porta nunc quis quam congue, venenatis vestibulum leo lacinia. Nunc finibus mollis eros, eget condimentum massa efficitur id. Nulla scelerisque metus sit amet tellus laoreet, ut aliquam velit auctor. Sed ultrices ante urna, condimentum placerat enim lacinia.</p></p>
         </div>
@@ -30,7 +30,7 @@
     <div class="what-we-do">
     <img src="<?php echo get_theme_file_uri('images/skyscrapers.jpg') ?>" class="we-do" alt="skyscrapers">
     <div class="we-content">
-        <h2 style="color: #00355f; font-size: 3vw; font-weight: 200">WHAT WE DO</h2>
+        <h2 style="color: #00355f; font-size: 4.6vw; font-weight: 200; line-height: 0.5; margin-bottom: 0">WHAT WE DO</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis libero leo, sit amet interdum urna scelerisque sed. Quisque vitae sodales turpis, quis hendrerit ex. Fusce magna ipsum, eleifend sed augue id, condimentum volutpat purus. Pellentesque vitae elit orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin in lorem dolor. Fusce interdum feugiat nisl.</p>
     </div>
         <img src="<?php echo get_theme_file_uri('images/services.png') ?>" alt="services" class="we-services">
