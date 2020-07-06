@@ -147,6 +147,14 @@ a {
 }
 
 /* --------- content styles --------- */
+
+h2 {
+  color: #00355f;
+  font-size: 4.6vw;
+  font-weight: 200;
+  line-height: 0.5;
+}
+
 .about {
   font-weight: 200;
   line-height: 1.4;
