@@ -16,7 +16,9 @@ html {
   font-family: HelveticaNeueLTStd !important;
 }
 
+
 /* --------- header styles --------- */
+
 .top-corner-logo {
   position: relative;
 }
@@ -51,7 +53,9 @@ a {
   top: 1.1vw;
 }
 
+
 /* --------- hero-video styles --------- */
+
 .video-container {
   width: 100%;
   background-size: cover;
@@ -146,6 +150,7 @@ a {
   text-decoration: none;
 }
 
+
 /* --------- content styles --------- */
 
 h2 {
@@ -204,7 +209,9 @@ h2 {
   height: 45vw;
 }
 
+
 /* --------- footer styles --------- */
+
 .footer-container {
   background-color: #002349;
   color: rgba(255, 255, 255, 0.939);

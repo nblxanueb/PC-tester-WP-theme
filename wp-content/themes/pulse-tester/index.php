@@ -36,11 +36,11 @@
 
 
     <div class="what-we-do">
-    <img src="<?php echo get_theme_file_uri('images/skyscrapers.jpg') ?>" class="we-do" alt="skyscrapers">
-    <div class="we-content">
-        <h2 style="margin-bottom: 0"><?php echo $what_we_do->post_title; ?></h2>
-        <p><?php echo $what_we_do->post_content; ?></p>
-    </div>
+        <img src="<?php echo get_theme_file_uri('images/skyscrapers.jpg') ?>" class="we-do" alt="skyscrapers">
+        <div class="we-content">
+            <h2 style="margin-bottom: 0"><?php echo $what_we_do->post_title; ?></h2>
+            <p><?php echo $what_we_do->post_content; ?></p>
+        </div>
         <img src="<?php echo get_theme_file_uri('images/services.png') ?>" alt="services" class="we-services">
     </div>
 
